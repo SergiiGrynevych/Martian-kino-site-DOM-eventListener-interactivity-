@@ -24,3 +24,18 @@ const movieDB = {
     ]
 };
 
+// 1) Удаляет все рекламные блоки со страницы (правая часть сайта)
+document.querySelector('.promo__adv').remove('.promo__adv');
+
+// 2) Изменить жанр фильма, поменять "комедия" на "драма"
+const changeElByClass = document.querySelector('.promo__genre');
+changeElByClass.textContent = 'драма';
+
+// 3) Изменить задний фон постера с фильмом на изображение "bg.jpg". Оно лежит в папке img.
+// Реализовать только при помощи JS
+
+
+
+
+
+
