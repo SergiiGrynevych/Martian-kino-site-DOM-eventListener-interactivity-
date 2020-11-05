@@ -35,7 +35,7 @@ changeElByClass.textContent = 'драма';
 // Реализовать только при помощи JS
 const editBackground = document.querySelector('.promo__bg');
 
-editBackground.style = 'background-image: url(../img/bg.jpg)';
+editBackground.style.backgroundImage = 'url(img/bg.jpg)';
 
 // 4) Список фильмов на странице сформировать на основании данных из этого JS файла.
 // Отсортировать их по алфавиту 
